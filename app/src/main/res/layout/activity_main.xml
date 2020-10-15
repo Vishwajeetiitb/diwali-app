@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/mode2"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_bg"
+        android:text="Mode2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/mode3"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mode0"
+        app:layout_constraintVertical_bias="0.064" />
+
+    <Button
+        android:id="@+id/mode5"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_bg"
+        android:text="Mode5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.877"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mode3"
+        app:layout_constraintVertical_bias="0.091" />
+
+    <Button
+        android:id="@+id/mode1"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_bg"
+        android:text="Mode1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.877"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.079" />
+
+    <Button
+        android:id="@+id/mode0"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_bg"
+        android:text="Mode0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/mode1"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.079" />
+
+    <Button
+        android:id="@+id/mode4"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_bg"
+        android:text="Mode4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/mode5"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mode2"
+        app:layout_constraintVertical_bias="0.089" />
+
+    <Button
+        android:id="@+id/mode3"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_bg"
+        android:text="Mode3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.877"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mode1"
+        app:layout_constraintVertical_bias="0.064" />
+
+    <androidx.appcompat.widget.AppCompatSeekBar
+        android:id="@+id/default_seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progressDrawable="@drawable/seek_style"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mode4" />
+
+    <TextView
+        android:id="@+id/speedmeter"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:text="Speed"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/default_seekbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mode4"
+        app:layout_constraintVertical_bias="0.929" />
+
+    <!--    <com.marcinmoskala.arcseekbar.ArcSeekBar-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="200dp"-->
+<!--        android:id="@+id/default_seekbar"-->
+<!--        app:progressBackgroundColor="@color/slider_background"-->
+<!--        app:progressWidth="20dp"-->
+<!--        app:roundEdges="true"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/mode2"-->
+
+<!--        />-->
+
+
+    <!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--        android:id="@+id/mode0layout"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="432dp"-->
+<!--        android:visibility="visible"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.0"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="1.0">-->
+<!--        -->
+
+<!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "835082566673",
+    "firebase_url": "https://diwali-8f703.firebaseio.com",
+    "project_id": "diwali-8f703",
+    "storage_bucket": "diwali-8f703.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835082566673:android:54ef6eb9190f1dd38645b0",
+        "android_client_info": {
+          "package_name": "com.example.diwali"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835082566673-09rhgjtl6k4o9pcv0m7abn0l1upagk0k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.diwali",
+            "certificate_hash": "857dc6d167b18bfb94c70a103e570ace3ac9e33f"
+          }
+        },
+        {
+          "client_id": "835082566673-8p2rl62k6j8iiti7uh1jijt0j3im33nl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3VnNkPoTbL3aMLt3_d7kNKB6LBBKLX-k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "835082566673-8p2rl62k6j8iiti7uh1jijt0j3im33nl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
